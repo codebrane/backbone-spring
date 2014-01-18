@@ -7,12 +7,12 @@
 
   <context-param>
     <param-name>webAppRootKey</param-name>
-    <param-value>matrix-blackboard-panel.root</param-value>
+    <param-value>backbone-spring.root</param-value>
   </context-param>
 
   <context-param>
     <param-name>log4jConfigLocation</param-name>
-    <param-value>file:${MATRIX_BLACKBOARD_PANEL_HOME}/config/log4j.properties</param-value>
+    <param-value>file:${BACKBONE_SPRING_HOME}/config/log4j.properties</param-value>
   </context-param>
 
   <listener>
@@ -44,7 +44,7 @@
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>file:${MATRIX_BLACKBOARD_PANEL_HOME}/config/applicationContext.xml</param-value>
+      <param-value>file:${BACKBONE_SPRING_HOME}/config/applicationContext.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>

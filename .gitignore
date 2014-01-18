@@ -1,0 +1,5 @@
+.idea
+*.iml
+target
+logs/application.log
+logs/spring.log
